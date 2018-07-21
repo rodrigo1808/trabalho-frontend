@@ -1,0 +1,86 @@
+body{
+	margin-top: 7%;
+	margin-left: 3%;
+	margin-right: 3%;
+}
+
+#bloco1{
+	background-color: rgba(3,169,169,0.7);
+}
+#bloco1:hover{
+	background-color: rgba(3,169,169,0.5);
+}
+
+#titulo{
+	font-size: 175%;
+	font-family: 'Pacifico', cursive;
+}
+
+#kidschool:hover{
+	font-size: 110%;
+	text-decoration:underline;
+}
+
+#bloco1-right{
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+#bloco1-left{
+	font-size: 40;
+	margin-top: 3%;
+	text-align: center;
+}
+
+#insc{
+	text-decoration:underline;
+	margin-top: 15%;
+	margin-bottom: 15%;
+}
+
+#bloco2-left{
+	background-color: rgba(255,60,110,0.7);
+}
+
+#bloco2-left:hover{
+	background-color: rgba(255,60,110,0.5);
+}
+
+#bloco2-right{
+	background-color: rgba(255,202,44,0.9);
+}
+
+#bloco2-right:hover{
+	background-color: rgba(255,202,44,0.6);
+}
+
+#noticias{
+	font-family: 'Chela One', cursive;
+	font-size: 230%;
+	text-align: center;
+}
+
+#texto-noticias{
+	margin-top: 5%;
+}
+
+#texto{
+	margin-top: 15%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 10%;
+}
+
+#mural{
+	font-family: 'Chela One', cursive;
+	font-size: 300%;
+	padding-left: 5%;
+	padding-top: 1%;
+}
+
+#texto-left{
+	margin-top: 5%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 10%;
+}

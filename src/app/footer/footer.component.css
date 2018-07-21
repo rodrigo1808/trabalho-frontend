@@ -1,0 +1,40 @@
+.page-footer{
+	border-top: 3px solid black;
+	margin-top: 10%;
+}
+
+#footer{
+	background-color: rgba(0,0,0,0.8);
+}
+
+.footer-copyright{
+	margin-top: 3%;
+	background-color: rgba(0,0,0,0.7);
+}
+
+.row-1{
+	font-family: 'Poor Story', cursive;
+	font-size: 35px;
+	color: #FFCA2C;
+	font-weight: bolder;
+}
+
+.row-2{
+	font-size: 20px;
+	color: white;
+}
+
+a:link, a:visited{
+	text-decoration: none;
+	color:white;
+}
+
+a:hover{
+	text-decoration: underline; 
+	color: #FF5722;
+	font-size:120%;
+}
+
+a:active{
+	text-decoration: none
+}

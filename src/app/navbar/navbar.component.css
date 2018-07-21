@@ -1,0 +1,30 @@
+/* tamanho e posição da logo */
+#logo{
+	height: 110%;
+	padding-left: 1%;
+}
+
+/* tamanho e fonte da navbar */
+nav{
+	height:80px;
+	font-family: 'Poor Story', cursive;
+}
+
+/* opacidade na navbar */
+#navbar{
+	background-color: rgba(0,0,0,0.5);
+}
+
+h2{
+	font-size: 30px;
+	color: #FFCA2C;
+}
+
+ul{
+	margin-right: 5%;
+}
+
+#user{
+	margin-top: 30%;
+	height: 65%;
+}

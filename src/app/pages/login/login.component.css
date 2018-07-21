@@ -1,0 +1,63 @@
+body{
+	margin-top: 6%;
+	margin-left: 10%;
+	margin-right:10%;
+	background-color: rgba(0,0,0,0.7);
+    border: 5px solid #FFCA2C;
+}
+
+#formulario, label{
+	font-size: 150%;
+}
+
+#conteudo{
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+#titulo{
+	padding-top: 2%;
+	font-family: 'Chela One', cursive;
+	font-size: 500%;
+	text-align: center;
+	color: #FFCA2C;
+}
+
+#subtitulo{
+	font-family: 'Chela One', cursive;
+	font-size: 300%;
+	text-align: center;
+	color: #FFCA2C;
+}
+
+.input-field label {
+	font-size: 150%;
+    color: white;
+}
+
+.input-field input[type=text]:focus + label {
+    color: #FF5722;
+}
+
+.input-field input[type=email]:focus + label {
+    color: #FF5722;
+}
+
+.input-field input[type=password]:focus + label {
+    color: #FF5722;
+}
+
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #FF5722;
+    box-shadow: 0 1px 0 0 #FF5722;
+}
+
+.input-field input[type=email]:focus {
+     border-bottom: 1px solid #FF5722;
+     box-shadow: 0 1px 0 0 #FF5722;
+}
+
+.input-field input[type=password]:focus {
+    border-bottom: 1px solid #FF5722;
+    box-shadow: 0 1px 0 0 #FF5722;
+}

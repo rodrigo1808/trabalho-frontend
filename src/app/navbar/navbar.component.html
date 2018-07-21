@@ -1,10 +1,16 @@
-<nav>
-	<div class="nav-wrapper">
-		<a href="#" class="brand-logo">Logo</a>
-		<ul id="nav-mobile" class="right hide-on-med-and-down">
-			<li><a href="sass.html">Sass</a></li>
-			<li><a href="badges.html">Components</a></li>
-			<li><a href="collapsible.html">JavaScript</a></li>
-		</ul>
-	</div>
-</nav>
+<div class="navbar-fixed">
+	<nav id="navbar" class=" z-depth-5">
+		<div class="nav-wrapper">
+			<a href="#" class="left-logo hide-on-med-and-down"><img id="logo" src="./assets/img/logo.png"></a>
+			<ul id="ul-1" class="right">	
+				<li routerLinkActive="active"><a routerLink="/login"><h2>Login</h2></a>
+				<li><img id="user" src="./assets/img/user.png"></li>
+			</ul>
+			<ul id="nav-mobile ul-2" class="right">
+				<li routerLinkActive="active"><a routerLink="/home"><h2>Home</h2></a></li>
+				<li routerLinkActive="active"><a routerLink="/sobrenos"><h2>Sobre Nós</h2></a></li>
+				<li routerLinkActive="active"><a routerLink="/contato"><h2>Contato</h2></a></li>
+			</ul>
+		</div>
+	</nav>
+</div>
